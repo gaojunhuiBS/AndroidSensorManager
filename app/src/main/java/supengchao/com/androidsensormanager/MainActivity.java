@@ -122,6 +122,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     }
 
+    /**
+     * 获取所有支持的传感器的列表
+     */
     private void getSensorList() {
         // 获取传感器管理器
         SensorManager sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
