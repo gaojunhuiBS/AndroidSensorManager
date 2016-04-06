@@ -1,2 +1,3 @@
-# AndroidSensorManager
-android使用传感器
+[# **AndroidSensorManager**]
+
+> android关于传感器的使用
