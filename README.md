@@ -3,15 +3,25 @@
 > android关于传感器的使用
 
 > SENSOR_TYPE_ACCELEROMETER       1 //加速度
+
 > SENSOR_TYPE_MAGNETIC_FIELD      2 //磁力
+
 > SENSOR_TYPE_ORIENTATION         3 //方向
+
 > SENSOR_TYPE_GYROSCOPE           4 //陀螺仪
+
 > SENSOR_TYPE_LIGHT               5 //光线感应
+
 > SENSOR_TYPE_PRESSURE            6 //压力
+
 > SENSOR_TYPE_TEMPERATURE         7 //温度 
+
 > SENSOR_TYPE_PROXIMITY           8 //接近
+
 > SENSOR_TYPE_GRAVITY             9 //重力
+
 > SENSOR_TYPE_LINEAR_ACCELERATION 10//线性加速度
+
 > SENSOR_TYPE_ROTATION_VECTOR     11//旋转矢量
  
 ###1 加速度传感器
