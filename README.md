@@ -2,19 +2,19 @@
  
 > android关于传感器的使用
 
- SENSOR_TYPE_ACCELEROMETER       1 //加速度
- SENSOR_TYPE_MAGNETIC_FIELD      2 //磁力
- SENSOR_TYPE_ORIENTATION         3 //方向
- SENSOR_TYPE_GYROSCOPE           4 //陀螺仪
- SENSOR_TYPE_LIGHT               5 //光线感应
- SENSOR_TYPE_PRESSURE            6 //压力
- SENSOR_TYPE_TEMPERATURE         7 //温度 
- SENSOR_TYPE_PROXIMITY           8 //接近
- SENSOR_TYPE_GRAVITY             9 //重力
- SENSOR_TYPE_LINEAR_ACCELERATION 10//线性加速度
- SENSOR_TYPE_ROTATION_VECTOR     11//旋转矢量
+> SENSOR_TYPE_ACCELEROMETER       1 //加速度
+> SENSOR_TYPE_MAGNETIC_FIELD      2 //磁力
+> SENSOR_TYPE_ORIENTATION         3 //方向
+> SENSOR_TYPE_GYROSCOPE           4 //陀螺仪
+> SENSOR_TYPE_LIGHT               5 //光线感应
+> SENSOR_TYPE_PRESSURE            6 //压力
+> SENSOR_TYPE_TEMPERATURE         7 //温度 
+> SENSOR_TYPE_PROXIMITY           8 //接近
+> SENSOR_TYPE_GRAVITY             9 //重力
+> SENSOR_TYPE_LINEAR_ACCELERATION 10//线性加速度
+> SENSOR_TYPE_ROTATION_VECTOR     11//旋转矢量
  
- 1 加速度传感器
+###1 加速度传感器
 
 加速度传感器又叫G-sensor，返回x、y、z三轴的加速度数值。
 
@@ -42,7 +42,7 @@
 
  
 
-2 磁力传感器
+###2 磁力传感器
 
 磁力传感器简称为M-sensor，返回x、y、z三轴的环境磁场数据。
 
@@ -56,7 +56,7 @@
 
  
 
-3 方向传感器
+###3 方向传感器
 
 方向传感器简称为O-sensor，返回三轴的角度数据，方向数据的单位是角度。
 
@@ -96,7 +96,7 @@ roll：y轴和水平面的夹角，由于历史原因，范围为-90°至90°。
 
  
 
-4 陀螺仪传感器
+###4 陀螺仪传感器
 
 陀螺仪传感器叫做Gyro-sensor，返回x、y、z三轴的角加速度数据。
 
@@ -122,7 +122,7 @@ ST的L3G系列的陀螺仪传感器比较流行，iphone4和google的nexus s中�
 
  
 
-5 光线感应传感器
+###5 光线感应传感器
 
 光线感应传感器检测实时的光线强度，光强单位是lux，其物理意义是照射到单位面积上的光通量。
 
@@ -132,19 +132,19 @@ ST的L3G系列的陀螺仪传感器比较流行，iphone4和google的nexus s中�
 
  
 
-6 压力传感器
+###6 压力传感器
 
 压力传感器返回当前的压强，单位是百帕斯卡hectopascal（hPa）。
 
  
 
-7 温度传感器
+###7 温度传感器
 
 温度传感器返回当前的温度。
 
  
 
-8 接近传感器
+###8 接近传感器
 
 接近传感器检测物体与手机的距离，单位是厘米。
 
@@ -162,7 +162,7 @@ ST的L3G系列的陀螺仪传感器比较流行，iphone4和google的nexus s中�
 
 下面三个传感器是Android2新提出的传感器类型，目前还不太清楚有哪些应用程序使用。
 
-9 重力传感器
+###9 重力传感器
 
 重力传感器简称GV-sensor，输出重力数据。
 
@@ -174,7 +174,7 @@ ST的L3G系列的陀螺仪传感器比较流行，iphone4和google的nexus s中�
 
  
 
-10 线性加速度传感器
+###10 线性加速度传感器
 
 线性加速度传感器简称LA-sensor。
 
@@ -188,7 +188,7 @@ ST的L3G系列的陀螺仪传感器比较流行，iphone4和google的nexus s中�
 
  
 
-11 旋转矢量传感器
+###11 旋转矢量传感器
 
 旋转矢量传感器简称RV-sensor。
 
